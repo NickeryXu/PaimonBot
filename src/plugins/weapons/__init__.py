@@ -2,7 +2,7 @@ from nonebot import on_command
 from .get_data import get_weapon
 from nonebot.adapters.cqhttp import Event, Bot, Message
 
-wea = on_command('.武器查询', aliases={'武器资料'})
+wea = on_command('武器查询', aliases={'武器资料'})
 
 
 @wea.handle()

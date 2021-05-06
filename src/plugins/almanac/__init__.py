@@ -3,7 +3,7 @@ from nonebot.adapters.cqhttp import Bot, Message, GroupMessageEvent, PrivateMess
 
 from .getPic import get_almanac_base64_str
 
-almanac = on_command('.黄历', aliases={'原神黄历'})
+almanac = on_command('黄历', aliases={'原神黄历'})
 
 
 @almanac.handle()

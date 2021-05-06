@@ -1,7 +1,7 @@
 from nonebot import on_command
 from nonebot.adapters.cqhttp import Event, Bot
 
-help = on_command('.help', aliases={'帮助'})
+help = on_command('help', aliases={'帮助'})
 
 
 @help.handle()

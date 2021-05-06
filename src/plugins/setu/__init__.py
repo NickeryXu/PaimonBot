@@ -5,8 +5,8 @@ from .getPic import ghs_pic3
 import json
 import re
 
-setu = on_command('.hso', aliases={'无内鬼', '涩图', '色图'})
-withdraw = on_command('.撤回')
+setu = on_command('hso', aliases={'无内鬼', '涩图', '色图'})
+withdraw = on_command('撤回')
 cdTime = nonebot.get_driver().config.cdtime
 
 
