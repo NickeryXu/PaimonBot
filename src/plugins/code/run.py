@@ -10,7 +10,7 @@ codeType = {
     'c': ['c', 'c'],
     'c#': ['csharp', 'cs'],
     'go': ['go', 'go'],
-    'asm':['assembly','asm']
+    'asm': ['assembly', 'asm']
 }
 
 
@@ -38,7 +38,7 @@ async def run(strcode):
     res = requests.post(url=f'https://glot.io/run/{codeType[lang][0]}?version=latest', headers=headers, json=dataJson)
     if res.status_code == 200:
         if res.json()['stdout'] != "":
-            if len(repr(res.json()['stdout']))<100:
+            if len(repr(res.json()['stdout'])) < 100:
                 return res.json()['stdout']
             else:
                 return "返回字符过长！你在拿派蒙寻开心是吧！"

@@ -28,7 +28,7 @@ def DSGet():
     i = str(int(time.time()))
     r = ''.join(random.sample(string.ascii_lowercase + string.digits, 6))
     c = md5("salt=" + n + "&t=" + i + "&r=" + r)
-    return (i + "," + r + "," + c)
+    return ','.join([i, r, c])
 
 
 async def GetInfo(Uid, ServerID="cn_gf01"):
