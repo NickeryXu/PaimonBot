@@ -1,0 +1,2 @@
+一个从https://github.com/LittleNightmare/onebot_Astrologian_FFXIV到nonebot2供群友使用的FF14占卜插件
+详细使用前往项目网页查看
