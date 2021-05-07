@@ -5,7 +5,7 @@ from .getImg import draw_pic
 
 import re
 
-query = on_command('查询')
+query = on_command('.查询')
 
 
 @query.handle()

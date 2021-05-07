@@ -3,9 +3,9 @@ from nonebot.adapters.cqhttp import Bot, Event, Message
 from datetime import datetime
 import os
 
-tf = on_endswith('天赋')
-we = on_endswith('武器')
-zb = on_endswith('周本')
+tf = on_endswith('.天赋')
+we = on_endswith('.武器')
+zb = on_endswith('.周本')
 
 PATH = os.path.abspath('.')
 print(PATH)
