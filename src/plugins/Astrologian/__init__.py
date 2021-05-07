@@ -5,7 +5,7 @@ from nonebot.adapters.cqhttp import Bot, Event
 from nonebot.log import logger
 from . import utils
 
-ffxiv_zhanbu = on_command('.占卜', aliases={'.zhanbu', '.luck'})
+ffxiv_zhanbu = on_command('/占卜', aliases={'/zhanbu'})
 
 
 # on_command 装饰器将函数声明为一个命令处理器
